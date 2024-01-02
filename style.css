@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #82616d;
+}
+
+#mtext{
+    position: absolute;
+    user-select: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: 9999;  
+    color: white;
+}
+
+#mtext h1{
+    
+    white-space: nowrap;
+    font-family: "Voyage";
+    font-size: 135px;
+    font-weight: 100;
+}
+
+#mtext h3{
+    font-family: "Voyage";
+    font-size: 45px;
+    font-weight: 500;
+    
+    
+}
+#left{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 45%;
+    
+}
+
+#nav{
+    width: 100%;
+    height: 5%;
+    padding: 10px;
+    padding-left: 30px;
+    gap: 180px;
+    
+    padding: 50px, 60px;
+    padding-top: 30px;
+    display: flex;
+    color: white;
+}
+
+#nav h3{
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+#center{
+    display: flex;
+    
+    position: relative;
+    height: 100%;   
+    width: 45%;
+    background-size: cover;  
+    background-image: url(https://64.media.tumblr.com/6a6f7cc05761d4f7ac9e23327654a086/tumblr_ovzvazWAZi1v6coito1_540.jpg);
+    background-position: center;
+}
+
+#center #overlay #card{
+    position: absolute;
+    bottom: 5%;
+    right: -5%;
+    width: 200px;
+    height: 120px;
+    
+    background-color: red;
+}
+
+
+
+#right{
+    
+    height: 100%;   
+    width: 10%;
+    background-color: #82616d;
+    padding-right: 60px;
+    
+}
+
+
+
+#centerimg{
+    
+    width: 45%;
+    height: 50%;
+   background-position: center;
+   background-image: url(https://i.pinimg.com/564x/72/b2/68/72b2681a04f5831df2a3fe5cf93ebd9c.jpg);   
+   background-size: cover;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+#centerimg #text{
+    display: flex;
+    position: absolute;
+    bottom: -40%;
+    width: 100%;
+    height: 120px;
+    
+}
+
+#text #parts{
+    width: 50%;
+    
+   padding-left: 30px;
+}
+
+#text #para{
+    width: 70%;
+    
+    
+}
+
+#parts h5{
+    margin-top: 20px;
+    color: white;
+}
+
+#para p{
+    margin-top: 12px;
+    font-size: 11px;
+    color: white;
+    opacity: .6;
+
+    
+}
+#scroll{
+    
+    display: flex;
+    position: absolute;
+     bottom: 0;
+     gap: 5px;
+     
+     
+     
+     transform: rotate(90deg);
+     align-items: center;
+     color: white;
+    
+    
+    
+}
+
+#scroll #line{
+    width: 150px;
+    height: 2px;
+    background-color: white;
+}
+
+#center #overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(57, 52, 52, 0.328);
+}
+
+#centerimg #overlay1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(57, 52, 52, 0.178);
+}
+
+#card{
+    display: flex;
+}
+
+#card #cicons{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+#card #cimg{
+    width: 75%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/36/94/70/3694700353bc4bc37ab675b2f923ae6d.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#right #ricon{
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 30px;
+    font-size: 15px;
+    right: 0;
+    color: white;
+}
+
+#right #rlinks{
+    position: relative;
+    position: absolute;
+    margin-top: 400px;
+    
+    
+    display: flex;
+    font-size: 12px;
+    gap: 30px;
+    
+    transform: rotate(90deg);
+}
+
+#rlinks a{
+    color: white;
+    text-decoration: none;
+    left: 0;
+    gap: 50px;
+    font-weight: 100;
+    
+    
+}
+
+
+
+
+
+
+
